@@ -17,7 +17,7 @@ import java.util.Set;
 
 @Secured("ROLE_ADMIN")
 @RestController("/api")
-public class AdminController {
+public class RestAdminController {
     private UserDetailsServiceImp userDetailsServiceImp;
     private UserService userService;
     private RoleService roleService;
